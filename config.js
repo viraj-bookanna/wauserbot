@@ -5,7 +5,7 @@ client_config = {
         /*executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
         args: ['--no-sandbox', '--proxy-server=socks5://127.0.0.1:1080'],*/
         headless: true,
-        args: ['--no-sandbox','--disable-setuid-sandbox','--disable-dev-shm-usage'],
+        args: ['--no-sandbox'],
     },
     authStrategy: new LocalAuth({
         clientId: "wauserbot"
