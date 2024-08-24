@@ -7,4 +7,4 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 WORKDIR /app
 COPY . /app
 RUN npm install
-CMD ["./start.sh"]
+CMD ["npm", "start"]
