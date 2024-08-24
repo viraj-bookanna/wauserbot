@@ -1,7 +1,7 @@
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const { write, clean } = require("./session");
 const qrcode = require('qrcode-terminal');
-const config = require('config');
+const config = require('./config');
 
 clean();
 const client = new Client(config.client_config);
