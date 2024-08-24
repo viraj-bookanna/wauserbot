@@ -1,4 +1,9 @@
 {
+  "name": "wauserbot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node main.js"
+  },
   "dependencies": {
     "adm-zip": "^0.5.15",
     "aes-encrypt-stream": "^0.2.0",
